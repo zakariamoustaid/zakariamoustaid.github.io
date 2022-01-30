@@ -2,22 +2,34 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>My WebPage</title>
+		<title>Zakaria Moustaid</title>
 		<link rel="stylesheet" href="style.css">
-		<script src="main.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="navbar">
-				<a href="#">About me</a>
-				<a href="#">Contatti</a>
+		<main>
+			<div class="language">
+				<label>Scegli la lingua</label>
+				<select class="selectLanguage" onchange='sLanguage(this)'>
+					<option>
+						Italiano
+					</option>
+					<option>
+						English
+					</option>
+				</select>
 			</div>
-			<div class="pages">
-				<div class="about">
-						<p>WORK IN PROGRESS...</p>
+			<div class="container">
+				<div class='it' lang='it'>
+					<h2>Ciao!</h2>
+					<p>
+						Mi chiamo Zakaria e sono un Sviluppatore.
+					</p>
 				</div>
+				<div class='en' lang='en'>
+					<p>work in progress...</p>
 				</div>
-			</div> 
-		</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			</div>
+			<script src="script.js"></script>   
+		</main>                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 	</body>
 </html>

@@ -1,49 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@media only screen and (max-width: 900px) {
+	.container{
+		min-width: 320px;
+		min-height: 700px;
+	}
+  }
 body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-  
-
-.navbar {
-	padding: 25px 3%;
-	font-weight: 600;
-	font-size: 17px;
-	background-color: #006192;
-}
-.navbar a {
-	transition: all 0.1s ease 0s;
-	padding: 0px 10px;
-	text-decoration: none;
-	color: #F7FBFC;
-	border-bottom: transparent;
-}
-.navbar a:hover {
-	color: #00263A;
+.language{
+	float: right;
 }
 
-.pages {
+.container{
 	display: flex;
-	background-color: #e5eff4;
+	justify-content: center;
 }
 
-.about{
-	padding: 25px 3%;
-	width: 100%;
-	height: 100vh;
+.it{
+	display: block;
 }
-.description{
-	font-size: 18px;
-}
-.thanks{
-	font-size: 23px;
-	font-style: italic;
-}
-.link-Git{
-	text-decoration: none;
-	color: #006192;
+
+.en{
+	display: none;
 }
