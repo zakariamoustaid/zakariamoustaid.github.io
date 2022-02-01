@@ -1,6 +1,10 @@
 'use strict';
 
-//language 0 = it; language 1 = en
+//set language to default value if the page is been reloaded
+if (window.performance.navigation)
+{
+    document.getElementsByClassName('selectLanguage')[0].selectedIndex = 0;
+}
 
 function sLanguage(selection)
 {
@@ -14,5 +18,4 @@ function sLanguage(selection)
         document.querySelector('.it').style.display = 'block';
         document.querySelector('.en').style.display = 'none';
     }
-
 }
