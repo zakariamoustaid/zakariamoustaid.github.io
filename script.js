@@ -7,7 +7,7 @@ function sLanguage(selection)
     if(selection.selectedIndex === 1)
     {
         document.querySelector('.it').style.display = 'none';
-        document.querySelector('.en').style.display = 'block';
+        document.querySelector('.en').style.display = 'flex';
     }
     else
     {
