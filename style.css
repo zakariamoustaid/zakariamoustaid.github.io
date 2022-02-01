@@ -16,12 +16,13 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: "Montserrat", sans-serif;
-	background-color:#E9D8A6;
+	background-image: url("images/cool-background\(4\).png");
 }
 
 .language{
 	padding: 40px;
 	text-align: right;
+	color: blanchedalmond;
 }
 
 .selectLanguage{
@@ -33,7 +34,7 @@ body {
 	height: 80vh;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #CA6702;
+	background-image: url("images/cool-background\(7\).png");
 }
 
 .profileImage{
@@ -46,10 +47,13 @@ body {
   }
 
 .it{
-	display: flex;
+	display: block;
+	margin-right: 500px;
 	align-items: center;
 }
 
 .en{
 	display: none;
+	margin-right: 500px;
+	align-items: center;
 }
