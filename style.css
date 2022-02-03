@@ -52,6 +52,21 @@ p{
 	height: 60px;
 }
 
+.listaLink{
+	display: flex;
+	margin-top: 20px;
+}
+
+.linkLinkedin{
+	width: 40px;
+	height: 40px;
+}
+.linkGithub{
+	margin-left: 30px;
+	width: 80px;
+	height: 40px;
+}
+
 .it{
 	display: block;
 	margin-top: -40px;
