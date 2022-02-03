@@ -1,59 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /* @media only screen and (max-width: 900px) {
-	.container{
-		min-width: 320px;
-		min-height: 700px;
-	}
 } */
 
 * { 
-	margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-	margin-left: 10%;
-	margin-right: 10%;
-	font-family: "Montserrat", sans-serif;
-	background-image: url("images/cool-background\(4\).png");
+	font-family: "Open Sans", sans-serif;
+	padding: 80px;
+	min-height: 90vh;
+	background: rgb(255,251,241);
+	background: linear-gradient(90deg, rgba(255,251,241,1) 0%, rgba(172,208,210,1) 100%);
+}
+
+h1{
+	font-size: 50px !important;
+}
+p{
+	font-size: 20px !important;
 }
 
 .language{
-	padding: 40px;
 	text-align: right;
-	color: blanchedalmond;
+	font-size: 13px;
 }
 
 .selectLanguage{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	opacity: 0.8;
 }
 
 .container{
 	display: flex;
-	height: 80vh;
-	justify-content: space-between;
+	margin-top: 30px;
 	align-items: center;
-	background-image: url("images/cool-background\(7\).png");
 }
 
 .profileImage{
-	display: flex;
-	width: 350px;
-	height: 350px;
-	margin-left: 100px;
+	float: left;
+	width: 230px;
+	height: 230px;
 	background: black;
 	border-radius: 50%;
-  }
+}
+
+.unifeLogo{
+	margin-bottom: -15px ;
+	margin-left: -10px;
+	width: 90px;
+	height: 60px;
+}
 
 .it{
 	display: block;
-	margin-right: 500px;
+	margin-top: -40px;
+	margin-left: 50px;
 	align-items: center;
 }
-
 .en{
 	display: none;
-	margin-right: 500px;
+	margin-top: -40px;
+	margin-left: 50px;
 	align-items: center;
 }

@@ -1,7 +1,7 @@
 'use strict';
 
 //set language to default value if the page is been reloaded
-if (window.performance.navigation)
+if (window.performance)
 {
     document.getElementsByClassName('selectLanguage')[0].selectedIndex = 0;
 }
