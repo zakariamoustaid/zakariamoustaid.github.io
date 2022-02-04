@@ -72,15 +72,15 @@ p{
 }
 
 .explodeButton{
-	margin-top: 100px;
-	margin-left: 100px;
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 700px;
 }
 
 .explode{
 	display: none;
 	position: absolute;
-	margin-left: 300px;
-	margin-top: -200px;
+	margin-top: -600px;
 }
 
 .buttonDestroy {

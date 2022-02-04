@@ -12,11 +12,13 @@ function sLanguage(selection)
     {
         document.querySelector('.it').style.display = 'none';
         document.querySelector('.en').style.display = 'block';
+        document.querySelector('.label').innerHTML = "Let's break something!";
     }
     else
     {
         document.querySelector('.it').style.display = 'block';
         document.querySelector('.en').style.display = 'none';
+        document.querySelector('.label').innerHTML = "Rompiamo qualcosa!";
     }
 }
 
@@ -29,12 +31,6 @@ function buttonWhite()
 {
     document.querySelector('.buttonDestroy').style.backgroundColor = 'white';
     document.querySelector('.explode').style.display = 'none';
-}
-
-function stopAll()
-{
-    alert('Stoooop!!');
-
 }
 
 function getStarted()
